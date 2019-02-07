@@ -2,3 +2,4 @@
 *.bck
 *-save.pro
 *.kicad_pcb-bak
+gerbers/
