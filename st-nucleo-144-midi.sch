@@ -205,4 +205,203 @@ Text Label 4000 5750 2    50   ~ 0
 PD1
 Text Label 4000 5850 2    50   ~ 0
 PG0
+NoConn ~ 4000 5050
+NoConn ~ 4000 5150
+Text Label 5900 2800 2    50   ~ 0
+PC6
+Text Label 5900 2900 2    50   ~ 0
+PB15
+Text Label 5900 3000 2    50   ~ 0
+PB13
+Text Label 5900 3100 2    50   ~ 0
+PB12
+Text Label 5900 3200 2    50   ~ 0
+PA15
+Text Label 5900 3300 2    50   ~ 0
+PC7
+Text Label 5900 3400 2    50   ~ 0
+PB5
+Text Label 5900 3500 2    50   ~ 0
+PB3
+Text Label 5900 3600 2    50   ~ 0
+PA4
+Text Label 5900 3700 2    50   ~ 0
+PB4
+Text Label 6400 2800 0    50   ~ 0
+PB8
+Text Label 6400 2900 0    50   ~ 0
+PB9
+Text Label 6400 3000 0    50   ~ 0
+AREF
+$Comp
+L power:GND #PWR?
+U 1 1 5C5E5880
+P 6750 3200
+F 0 "#PWR?" H 6750 2950 50  0001 C CNN
+F 1 "GND" H 6755 3027 50  0000 C CNN
+F 2 "" H 6750 3200 50  0001 C CNN
+F 3 "" H 6750 3200 50  0001 C CNN
+	1    6750 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3100 6750 3100
+Wire Wire Line
+	6750 3100 6750 3200
+Text Label 6400 3200 0    50   ~ 0
+PA5
+Text Label 6400 3300 0    50   ~ 0
+PA6
+Text Label 6400 3400 0    50   ~ 0
+PA7
+Text Label 6400 3500 0    50   ~ 0
+PD14
+Text Label 6400 3600 0    50   ~ 0
+PD15
+Text Label 6400 3700 0    50   ~ 0
+PF12
+$Comp
+L power:GND #PWR?
+U 1 1 5C5E59E0
+P 5500 4450
+F 0 "#PWR?" H 5500 4200 50  0001 C CNN
+F 1 "GND" H 5505 4277 50  0000 C CNN
+F 2 "" H 5500 4450 50  0001 C CNN
+F 3 "" H 5500 4450 50  0001 C CNN
+	1    5500 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4450 5500 4350
+Wire Wire Line
+	5500 4350 5900 4350
+Text Label 5900 4450 2    50   ~ 0
+PB1
+Text Label 5900 4550 2    50   ~ 0
+PC2
+Text Label 5900 4650 2    50   ~ 0
+PF4
+Text Label 5900 4750 2    50   ~ 0
+PB6
+Text Label 5900 4850 2    50   ~ 0
+PB2
+$Comp
+L power:GND #PWR?
+U 1 1 5C5E5B89
+P 5500 5050
+F 0 "#PWR?" H 5500 4800 50  0001 C CNN
+F 1 "GND" H 5505 4877 50  0000 C CNN
+F 2 "" H 5500 5050 50  0001 C CNN
+F 3 "" H 5500 5050 50  0001 C CNN
+	1    5500 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 5050 5500 4950
+Wire Wire Line
+	5900 4950 5500 4950
+Text Label 5900 5050 2    50   ~ 0
+PD13
+Text Label 5900 5150 2    50   ~ 0
+PD12
+Text Label 5900 5250 2    50   ~ 0
+PD11
+Text Label 5900 5350 2    50   ~ 0
+PE2_NC
+$Comp
+L power:GND #PWR?
+U 1 1 5C5E5D61
+P 5500 5550
+F 0 "#PWR?" H 5500 5300 50  0001 C CNN
+F 1 "GND" H 5505 5377 50  0000 C CNN
+F 2 "" H 5500 5550 50  0001 C CNN
+F 3 "" H 5500 5550 50  0001 C CNN
+	1    5500 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 5550 5500 5450
+Wire Wire Line
+	5900 5450 5500 5450
+Text Label 5900 5550 2    50   ~ 0
+PA0
+Text Label 5900 5650 2    50   ~ 0
+PB0
+Text Label 5900 5750 2    50   ~ 0
+PE0
+Text Label 6400 4150 0    50   ~ 0
+PF13
+Text Label 6400 4250 0    50   ~ 0
+PE9
+Text Label 6400 4350 0    50   ~ 0
+PE11
+Text Label 6400 4450 0    50   ~ 0
+PE14
+Text Label 6400 4550 0    50   ~ 0
+PE13
+Text Label 6400 4650 0    50   ~ 0
+PF15
+Text Label 6400 4750 0    50   ~ 0
+PG14
+Text Label 6400 4850 0    50   ~ 0
+PG9
+Text Label 6400 4950 0    50   ~ 0
+PE8
+Text Label 6400 5050 0    50   ~ 0
+PE7
+$Comp
+L power:GND #PWR?
+U 1 1 5C5E5EBA
+P 6850 5250
+F 0 "#PWR?" H 6850 5000 50  0001 C CNN
+F 1 "GND" H 6855 5077 50  0000 C CNN
+F 2 "" H 6850 5250 50  0001 C CNN
+F 3 "" H 6850 5250 50  0001 C CNN
+	1    6850 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 5150 6850 5150
+Wire Wire Line
+	6850 5150 6850 5250
+Text Label 6400 5250 0    50   ~ 0
+PE10
+Text Label 6400 5350 0    50   ~ 0
+PE12
+Text Label 6400 5450 0    50   ~ 0
+PE14
+Text Label 6400 5550 0    50   ~ 0
+PE15
+Text Label 6400 5650 0    50   ~ 0
+PB10
+Text Label 6400 5750 0    50   ~ 0
+PB11
+$Comp
+L power:GNDA #PWR?
+U 1 1 5C609688
+P 5300 4450
+F 0 "#PWR?" H 5300 4200 50  0001 C CNN
+F 1 "GNDA" H 5305 4277 50  0000 C CNN
+F 2 "" H 5300 4450 50  0001 C CNN
+F 3 "" H 5300 4450 50  0001 C CNN
+	1    5300 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 4250 5300 4250
+Wire Wire Line
+	5300 4250 5300 4450
+$Comp
+L power:VDDA #PWR?
+U 1 1 5C6098CC
+P 5600 4150
+F 0 "#PWR?" H 5600 4000 50  0001 C CNN
+F 1 "VDDA" V 5618 4278 50  0000 L CNN
+F 2 "" H 5600 4150 50  0001 C CNN
+F 3 "" H 5600 4150 50  0001 C CNN
+	1    5600 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 4150 5600 4150
 $EndSCHEMATC
